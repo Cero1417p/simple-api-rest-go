@@ -1,12 +1,15 @@
+# Link
 Tutorial https://go.dev/doc/tutorial/web-service-gin
 
+# to init
+go run .
 
-
+# to make request
 $ curl http://localhost:8080/albums \
 --header "Content-Type: application/json" \
 --request "GET"
 
-$ curl http://localhost:8080/albums \
+$ curl http://localhost:8080/albums 
 --include \
 --header "Content-Type: application/json" \
 --request "POST" \
